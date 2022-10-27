@@ -1,0 +1,110 @@
+#navbar-width {
+  width: 100vw;
+}
+
+#collapsibleNavId .navbar-nav li>a {
+  font-weight: 600;
+  color: black;
+  font-family:Montserrat, sans-serif;
+  font-size: 15px;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+
+}
+
+#collapsibleNavId .navbar-nav li>a:hover {
+  box-shadow: inset 400px 0 0 0 #00000000;
+  border-radius: 3px;
+  background: hsla(0, 0%, 0%, .05);
+
+}
+
+header {
+  background-image:url('https://www.linkpicture.com/q/M3-Homepage-Desktop-LHD.jpg');
+  background-size: contain;
+  /* width: 100vw; */
+  height: 100vw;
+}
+
+.bg-light {
+  --bs-bg-opacity: 0 !important;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0rem !important;
+}
+
+#subtitle,#title{
+  /* position: fixed; */
+}
+
+#custom-order{
+  background-color: rgba(23, 26, 32, 0.8);
+    /* filter: blur(2px); */
+    opacity: 0.9;
+    border: none;
+    color: white;
+    height: 38px;
+    border-radius: 5px;
+}
+#Existing{
+  border: none;
+  height: 38px;
+  border-radius: 5px;
+}
+
+
+
+#down-arrow {
+  color: rgb(9, 9, 9);
+  text-decoration: none;
+}
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #fff;
+}
